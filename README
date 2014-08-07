@@ -1,0 +1,8 @@
+JavaScript and CSS minifier/compressor tool
+
+In order to minimize the number and size of HTTP requests for JS/CSS content,
+this script combines multiple JS/CSS files into a single file and compresses it.
+
+For caching issues, it appends a timestamp with each minified file it creates,
+and writes it in separate text file, which can be further read to render latest 
+JS and CSS file with markup.
